@@ -52,5 +52,26 @@ Now the the switching part so i have divide it like this in the diagram below :-
 Here the vcc enables the drivers for dc-motors & stepper motor and the buck converter for servo's.
 The control pins are connected to same pins for for dc-motors , stepper motor & servo .
 
+# PCB
+
+So it's a 4 layer PCB
+Confi as:
+# Top layer - Signal
+<img width="761" height="555" alt="Screenshot 2026-06-10 at 1 47 24 PM" src="https://github.com/user-attachments/assets/29be1bc1-20f4-4f24-9f0b-c71c570c5783" />
+
+# 1 inner layer - GND
+<img width="761" height="554" alt="Screenshot 2026-06-10 at 1 47 37 PM" src="https://github.com/user-attachments/assets/0a509127-9394-4e14-a60e-198456100b2b" />
+
+# 2 inner layer - Power
+<img width="759" height="549" alt="Screenshot 2026-06-10 at 1 47 53 PM" src="https://github.com/user-attachments/assets/064996bc-c449-4959-bd80-e8e463923036" />
+
+# Bottom layer - Signal
+<img width="755" height="547" alt="Screenshot 2026-06-10 at 1 48 08 PM" src="https://github.com/user-attachments/assets/629a9b29-60fe-475c-adfa-a020ff61d2e1" />
+
+
+the GND layer is divide into two parts then normal electronics and the power/driver electronics and is connected by a single trace .
+<img width="761" height="554" alt="Screenshot 2026-06-10 at 1 47 37 PM" src="https://github.com/user-attachments/assets/2f356dde-066e-4748-ae4c-7e49fa3a4415" />
+
+
 
 
