@@ -5,7 +5,7 @@ It's like a all in one mobility powerhouse.
 
 
 # BOM
- We have a normal [BOM](BOM/Untitledspreadsheet-BOM.csv)
+ We have a normal [BOM](BOM/Untitled spreadsheet-BOM.csv)
  & a interactive one https://shaurya-ashu.github.io/MOTOR-BOARD/index.html
 
 # Zine
@@ -28,8 +28,8 @@ We have to dedicated LDO to convert USB power source and battery power source to
 <img width="522" height="728" alt="Screenshot 2026-06-09 at 7 28 37 PM" src="https://github.com/user-attachments/assets/91f7a6d1-898b-4165-bab3-d96a251ef44d" />
 
 
-It has three peripheral interfaces which you are UART ,
-I2C & SPI .
+It has three peripheral interfaces which you are UART,I2C & SPI .
+
 <img width="294" height="798" alt="Screenshot 2026-06-09 at 7 29 10 PM" src="https://github.com/user-attachments/assets/41d5618e-4706-4f63-ac96-cae86861cc0f" />
 
 
