@@ -1,0 +1,40 @@
+BILL OF MATERIALS ,,,,,,,
+Item No.,Reference(s),Description,Footprint / Package,Qty,Unit Price (USD),Total Value (USD),Purchase Link
+1,"A1, A2, A3, A4",Pololu A4988 Stepper Motor Driver Breakout (Black Ed.),Module 15.2×20.3 mm (16-pin),4,$5.95,$23.80,https://www.pololu.com/product/2128
+2,"C1, C5, C6, C7, C8","Capacitor, 22 µF, SMD 0603",C_0603_1608Metric HandSolder,5,$0.12,$0.60,https://www.digikey.com/en/products/filter/ceramic-capacitors/60?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGAJwDMAnGAOwAsDB8AHCALpEAOKAC4gA
+3,"C2, C9, C10, C11, C23, C25","Capacitor, 1 µF, SMD 0603",C_0603_1608Metric HandSolder,6,$0.10,$0.60,https://www.digikey.com/en/products/filter/ceramic-capacitors/60
+4,"C3, C4, C12, C14, C17, C18","Capacitor, 100 nF (0.1 µF), SMD 0603",C_0603_1608Metric HandSolder,6,$0.08,$0.48,https://www.digikey.com/en/products/filter/ceramic-capacitors/60
+5,"C13, C15, C16, C19, C21, C22, C26, C27","Capacitor, 10 µF, SMD 0603",C_0603_1608Metric HandSolder,8,$0.15,$1.20,https://www.digikey.com/en/products/filter/ceramic-capacitors/60
+6,C20,"Capacitor, 10 µF, Electrolytic THT",C_Elec 6.3×5.4 mm,1,$0.20,$0.20,https://www.digikey.com/en/products/filter/aluminum-electrolytic-capacitors/58
+7,"C24, C28","Capacitor, 47 µF, SMD 0603",C_0603_1608Metric HandSolder,2,$0.22,$0.44,https://www.digikey.com/en/products/filter/ceramic-capacitors/60
+8,"C29, C30, C31, C32","Capacitor, 100 µF, Electrolytic THT",C_Rect L7.2×W3.5 mm P5.00 mm,4,$0.25,$1.00,https://www.digikey.com/en/products/filter/aluminum-electrolytic-capacitors/58
+9,"D1, D2","LED, General Purpose, SMD 0201 (0603 pads)",LED_0201_0603Metric HandSolder,2,$0.10,$0.20,https://www.digikey.com/en/products/filter/leds-through-hole/93
+10,D3,SMBJ30CA-13-F — 30 V Bidirectional TVS Diode,SMB (DO-214AA) / DIOM4336,1,$0.55,$0.55,https://www.digikey.com/en/products/detail/diodes-incorporated/SMBJ30CA-13-F/814937
+11,"IC1, IC2",ST1S41PHR — 3 A Step-Down Switching Regulator,SOIC-9 (SOIC127P600X170-9N),2,$1.85,$3.70,https://www.mouser.com/ProductDetail/STMicroelectronics/ST1S41PHR?qs=GlLcxsc1hfH42vbX3xy6fg%3D%3D
+12,J1,2340901-1 — TE Connectivity Connector,TE_2340901-1,1,$1.20,$1.20,https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/2340901-1/
+13,J2,JST PH 2-Pin Vertical Connector (2.00 mm pitch),JST_PH B2B-PH-K 1×02 P2.00 mm,1,$0.35,$0.35,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S-LF-SN/926626
+14,"J3, J5",JST PH 4-Pin Vertical Connector (2.00 mm pitch),JST_PH B4B-PH-K 1×04 P2.00 mm,2,$0.45,$0.90,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-PH-K-S-LF-SN/926628
+15,J4,JST PH 6-Pin Vertical Connector (2.00 mm pitch),JST_PH B6B-PH-K 1×06 P2.00 mm,1,$0.55,$0.55,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-PH-K-S-LF-SN/926630
+16,J6,1×8 Female Pin Header 2.54 mm pitch,PinHeader_1×08 P2.54 mm Vertical,1,$0.30,$0.30,https://www.digikey.com/en/products/filter/rectangular-connectors-headers-receptacles/315
+17,J7–J14 (8 pcs),1×3 Male Pin Header 2.54 mm pitch,PinHeader_1×03 P2.54 mm Vertical,8,$0.10,$0.80,https://www.digikey.com/en/products/filter/rectangular-connectors-headers-male-pins/314
+18,"J15, J16, J17, J18",1×4 Male Pin Header 2.54 mm pitch,PinHeader_1×04 P2.54 mm Vertical,4,$0.12,$0.48,https://www.digikey.com/en/products/filter/rectangular-connectors-headers-male-pins/314
+19,J19–J30 (12 pcs),1×2 Male Pin Header 2.54 mm pitch,PinHeader_1×02 P2.54 mm Vertical,12,$0.08,$0.96,https://www.digikey.com/en/products/filter/rectangular-connectors-headers-male-pins/314
+20,"L1, L2",XAL5030-332MEC — 3.3 µH 4.7 A Shielded Power Inductor,XAL5030 (5×5×3 mm),2,$1.98,$3.96,https://www.mouser.com/ProductDetail/Coilcraft/XAL5030-332MEC?qs=zCSbvcPd3pYGD73YPsvPxA%3D%3D
+21,"R1, R13, R16","Resistor, 10 kΩ, SMD 0603",R_0603_1608Metric HandSolder,3,$0.05,$0.15,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+22,"R2, R3","Resistor, 0 Ω (Jumper), SMD 0603",R_0603_1608Metric HandSolder,2,$0.05,$0.10,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+23,"R4, R5, R10, R11, R12, R17, R18","Resistor, 1 kΩ, SMD 0603",R_0603_1608Metric HandSolder,7,$0.05,$0.35,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+24,"R6, R7","Resistor, 5.1 kΩ, SMD 0603",R_0603_1608Metric HandSolder,2,$0.05,$0.10,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+25,"R8, R9","Resistor, 47 Ω, SMD 0603",R_0603_1608Metric HandSolder,2,$0.05,$0.10,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+26,"R14, R15","Resistor, 68 kΩ, SMD 0603",R_0603_1608Metric HandSolder,2,$0.05,$0.10,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+27,"S1, S2",Tactile Push Button (BUTT-2),SW_BUTT-2,2,$0.25,$0.50,https://www.digikey.com/en/products/filter/tactile-switches/197
+28,"S3, S4",OS103011MS8QP1 — SPDT Slide Switch,OS103011MS8QP1,2,$0.45,$0.90,https://www.digikey.com/en/products/detail/c-k/OS103011MS8QP1/1981429
+29,TP1,Test Point — VBUS 3.3 V,TestPoint_Pad D1.5 mm,1,$0.05,$0.05,https://www.digikey.com/en/products/filter/test-points/639
+30,TP2,Test Point — VBAT 3.3 V,TestPoint_Pad D1.5 mm,1,$0.05,$0.05,https://www.digikey.com/en/products/filter/test-points/639
+31,"TP3, TP4",Test Point — General Purpose,TestPoint_Pad D1.5 mm,2,$0.05,$0.10,https://www.digikey.com/en/products/filter/test-points/639
+32,U1,ESP32-S3-WROOM-1 — WiFi/BT5 Module (PCB ant.),RF_Module:ESP32-S3-WROOM-1,1,$3.50,$3.50,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639
+33,"U2, U3",AMS1117-3.3 — 1 A LDO Voltage Regulator 3.3 V,SOT-223-3 TabPin2,2,$0.30,$0.60,https://www.digikey.com/en/products/detail/umw/AMS1117-3.3/17084460
+34,U4,"USBLC6-2SC6 — USB ESD Protection, SOT-23-6",SOT-23-6,1,$0.54,$0.54,https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1787534
+35,U5,TPS2116DRLR — Power Mux / Priority Switch,SOT-FL50P160×60-8N (VSON-8),1,$0.80,$0.80,https://www.digikey.com/en/products/detail/texas-instruments/TPS2116DRLR/15205127
+36,"U6, U7",TB6612FNG — Dual H-Bridge DC Motor Driver,SSOP-24 5.3×8.2 mm P0.65 mm,2,$2.72,$5.44,https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB6612FNGC8EL/1730134
+37,PCB,PCB,--,5,$1.40,$7.00,NA
+GRAND TOTAL (USD),,,,,,$62.65,
