@@ -3,6 +3,9 @@ It's a DEV Board specially developed for controlling motors.
 We can use this dev board to make anything from a moving car a self balancing robot or even a CNC mill machine.
 It's like a all in one mobility powerhouse.
 
+# Why 
+ becaue i always wamted one 
+ a dev borad which i can directly use to drive a car or make a robotic arm 
 
 # BOM
  We have a normal [BOM](BOM/Untitled%20spreadsheet%20-%20BOM.csv)
@@ -71,6 +74,18 @@ Confi as:
 
 the GND layer is divide into two parts then normal electronics and the power/driver electronics and is connected by a single trace .
 <img width="761" height="554" alt="Screenshot 2026-06-10 at 1 47 37 PM" src="https://github.com/user-attachments/assets/2f356dde-066e-4748-ae4c-7e49fa3a4415" />
+
+# Img 
+
+<img width="2880" height="1226" alt="motor-board-img" src="https://github.com/user-attachments/assets/78f42d51-1137-4fbc-9c43-4fc24a55fc1e" />
+<img width="815" height="519" alt="Screenshot 2026-06-10 at 11 27 02 AM" src="https://github.com/user-attachments/assets/aea31340-a7dc-400a-839e-e789a89064d0" />
+<img width="1079" height="802" alt="Screenshot 2026-06-10 at 12 37 49 PM" src="https://github.com/user-attachments/assets/20828668-c777-429f-8409-4788cb0d429a" />
+
+# Build
+
+Just Order the production gerber file from any pcb manufacturer
+And other all the components of DigiKey as listed in the bom
+
 
 
 
