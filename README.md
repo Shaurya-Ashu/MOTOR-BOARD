@@ -5,7 +5,7 @@ It's like a all in one mobility powerhouse.
 
 
 # BOM
- We have a normal [BOM](BOM/Untitled spreadsheet-BOM.csv)
+ We have a normal [BOM](BOM/Untitled%20spreadsheet%20-%20BOM.csv)
  & a interactive one https://shaurya-ashu.github.io/MOTOR-BOARD/index.html
 
 # Zine
