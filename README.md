@@ -5,7 +5,8 @@ It's like a all in one mobility powerhouse.
 
 # Why 
  becaue i always wamted one 
- a dev borad which i can directly use to drive a car or make a robotic arm 
+ a dev borad which i can directly use to drive a car or make a robotic arm possibilities are endless.
+ And also creating a dev board is a fun project.
 
 # BOM
  We have a normal [BOM](BOM/Untitled%20spreadsheet%20-%20BOM.csv)
@@ -13,6 +14,8 @@ It's like a all in one mobility powerhouse.
 
 # Zine
  <img width="934" height="816" alt="Frame 1" src="https://github.com/user-attachments/assets/bd4e5ca1-61a5-400b-9936-22737e6c4e32" />
+
+ It's my first time creating this
  
 # Info
 It is a dev board based on ESP32-S3-WROOM-1 (My FAV.) mcu, specially designed for multiple types of motors from brushed DC motors, Servo Motors stepper motors etc.
@@ -24,14 +27,17 @@ I have used a USB-C port for programming and powering Electronics and the dedica
 
 
 I have used a INPUT VOLTAGE MULTIPLEXER for selecting between the USB-C power source and battery power source to power the electronics , its is set default to USB power and if USB power is unavailable, then it uses the battery power source.
+I get to know about this in a Instagram reel where someone was building custom ESC.
 <img width="1100" height="608" alt="Screenshot 2026-06-09 at 7 28 06 PM" src="https://github.com/user-attachments/assets/f11ae037-f028-4872-8c13-075d096c7efc" />
 
 
 We have to dedicated LDO to convert USB power source and battery power source to 3.3v .
+It's a AMS1117-3.3 rated output at 3.3v @1000mah 
 <img width="522" height="728" alt="Screenshot 2026-06-09 at 7 28 37 PM" src="https://github.com/user-attachments/assets/91f7a6d1-898b-4165-bab3-d96a251ef44d" />
 
 
 It has three peripheral interfaces which you are UART,I2C & SPI .
+Which we can use to connect different sensors displays and other devices and also setup a serial communication between two MCU.
 
 <img width="294" height="798" alt="Screenshot 2026-06-09 at 7 29 10 PM" src="https://github.com/user-attachments/assets/41d5618e-4706-4f63-ac96-cae86861cc0f" />
 
@@ -54,6 +60,25 @@ Now the the switching part so i have divide it like this in the diagram below :-
 <img width="2000" height="1410" alt="DIAGRAM-SELECTOR" src="https://github.com/user-attachments/assets/479544a8-ca5f-4dca-b8dd-259c3510d921" />
 Here the vcc enables the drivers for dc-motors & stepper motor and the buck converter for servo's.
 The control pins are connected to same pins for for dc-motors , stepper motor & servo .
+
+# Config
+
+ So, all the three thing the dc motor driver , servo & stepper are connected to same GPIO's 
+ like this 
+ | Net | ESP32-S3 GPIO | Servo Output | A4988 Stepper Driver | TB6612FNG DC Driver |
+|:---:|:-------------:|:-------------:|:--------------------:|:-------------------:|
+| A1  | GPIO1  | Servo A1 | Stepper 1 ENABLE | U6 PWMA |
+| A2  | GPIO2  | Servo A2 | Stepper 1 STEP   | U6 PWMB |
+| A3  | GPIO15 | Servo A3 | Stepper 1 DIR    | U6 AIN1 |
+| A4  | GPIO4  | Servo A4 | Stepper 2 ENABLE | U6 AIN2 |
+| A5  | GPIO5  | Servo A5 | Stepper 2 STEP   | U6 BIN1 |
+| A6  | GPIO6  | Servo A6 | Stepper 2 DIR    | U6 BIN2 |
+| A7  | GPIO7  | Servo A7 | Stepper 3 ENABLE | U7 PWMA |
+| A8  | GPIO22 | Servo A8 | Stepper 3 STEP   | U7 PWMB |
+| A9  | GPIO8  | — | Stepper 3 DIR    | U7 AIN1 |
+| A10 | GPIO9  | — | Stepper 4 ENABLE | U7 AIN2 |
+| A11 | GPIO10 | — | Stepper 4 STEP   | U7 BIN1 |
+| A12 | GPIO11 | — | Stepper 4 DIR    | U7 BIN2 |
 
 # PCB
 
