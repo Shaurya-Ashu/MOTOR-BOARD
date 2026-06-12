@@ -67,18 +67,20 @@ The control pins are connected to same pins for for dc-motors , stepper motor & 
  like this 
  | Net | ESP32-S3 GPIO | Servo Output | A4988 Stepper Driver | TB6612FNG DC Driver |
 |:---:|:-------------:|:-------------:|:--------------------:|:-------------------:|
-| A1  | GPIO1  | Servo A1 | Stepper 1 ENABLE | U6 PWMA |
-| A2  | GPIO2  | Servo A2 | Stepper 1 STEP   | U6 PWMB |
-| A3  | GPIO15 | Servo A3 | Stepper 1 DIR    | U6 AIN1 |
-| A4  | GPIO4  | Servo A4 | Stepper 2 ENABLE | U6 AIN2 |
-| A5  | GPIO5  | Servo A5 | Stepper 2 STEP   | U6 BIN1 |
-| A6  | GPIO6  | Servo A6 | Stepper 2 DIR    | U6 BIN2 |
-| A7  | GPIO7  | Servo A7 | Stepper 3 ENABLE | U7 PWMA |
-| A8  | GPIO22 | Servo A8 | Stepper 3 STEP   | U7 PWMB |
-| A9  | GPIO8  | — | Stepper 3 DIR    | U7 AIN1 |
-| A10 | GPIO9  | — | Stepper 4 ENABLE | U7 AIN2 |
-| A11 | GPIO10 | — | Stepper 4 STEP   | U7 BIN1 |
-| A12 | GPIO11 | — | Stepper 4 DIR    | U7 BIN2 |
+| A1  | GPIO1  | Servo A1 | Stepper 1 ENABLE | M1 PWMA |
+| A2  | GPIO2  | Servo A2 | Stepper 1 STEP   | M2 PWMB |
+| A3  | GPIO15 | Servo A3 | Stepper 1 DIR    | M1 AIN1 |
+| A4  | GPIO4  | Servo A4 | Stepper 2 ENABLE | M1 AIN2 |
+| A5  | GPIO5  | Servo A5 | Stepper 2 STEP   | M2 BIN1 |
+| A6  | GPIO6  | Servo A6 | Stepper 2 DIR    | M2 BIN2 |
+| A7  | GPIO7  | Servo A7 | Stepper 3 ENABLE | M3 PWMA |
+| A8  | GPIO22 | Servo A8 | Stepper 3 STEP   | M4 PWMB |
+| A9  | GPIO8  | — | Stepper 3 DIR    | M3 AIN1 |
+| A10 | GPIO9  | — | Stepper 4 ENABLE | M3 AIN2 |
+| A11 | GPIO10 | — | Stepper 4 STEP   | M4 BIN1 |
+| A12 | GPIO11 | — | Stepper 4 DIR    | M4 BIN2 |
+
+
 
 # PCB
 
