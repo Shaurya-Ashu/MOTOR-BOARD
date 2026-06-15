@@ -13,7 +13,8 @@ It's like a all in one mobility powerhouse.
  & a interactive one https://shaurya-ashu.github.io/MOTOR-BOARD/index.html
 
 # Zine
- <img width="934" height="816" alt="Frame 1" src="https://github.com/user-attachments/assets/bd4e5ca1-61a5-400b-9936-22737e6c4e32" />
+ <img width="934" height="794" alt="Frame 1-2" src="https://github.com/user-attachments/assets/16cab922-7688-463c-b8c1-eb176686d854" />
+
 
  It's my first time creating this
  
