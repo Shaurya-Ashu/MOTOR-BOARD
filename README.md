@@ -1,3 +1,7 @@
+<!-- boardrepo-badge:v1 -->
+[![View on BoardRepo](https://boardrepo.com/badge/github.svg?v=2)](https://boardrepo.com/b/260990d0-4771-4789-816c-ef8c943e9ebc?ref=github-readme)
+<!-- /boardrepo-badge:v1 -->
+
 # MOTOR-BOARD
 It's a DEV Board specially developed for controlling motors.
 We can use this dev board to make anything from a moving car a self balancing robot or even a CNC mill machine.
